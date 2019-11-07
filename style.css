@@ -10,7 +10,7 @@
     width: 100%;
     height: 100vh;
     background-image: url("img/lol.jpg");
-    border: solid yellow 5px;
+    border: solid #c6b23b 5px;
 
 }
 .slider-wrapper {
@@ -67,9 +67,14 @@
 
 
 }
+.nav img{
+  width: 30px;
+  height: 30px;
+}
 .nav > i {
     margin: 0 20px;
 }
-.nav > i.active {
-    color: blue;
+.nav > img.active {
+
+    image: url("img/iconblue.png");
 }

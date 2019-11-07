@@ -5,7 +5,6 @@ $( document ).ready(function() {
 $(".next").click(nextslide);
 //collego la funzione alla classe prev , in modo tale che quando si clicca sulla freccia va indietro
 $(".prev").click(beforeslide);
-
 });
 
 
